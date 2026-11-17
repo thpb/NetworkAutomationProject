@@ -1,0 +1,38 @@
+# Device inventory for the small business network lab.
+# No passwords here on purpose: the scripts ask for them at run time.
+
+devices:
+  - name: HQ-RT
+    host: 192.168.218.11
+    device_type: cisco_ios
+    role: router
+    site: head-office
+    mgmt_interface: Ethernet0/3
+
+  - name: Branch-RT
+    host: 192.168.218.12
+    device_type: cisco_ios
+    role: router
+    site: branch
+    mgmt_interface: Ethernet0/2
+
+  - name: ISP-RT
+    host: 192.168.218.13
+    device_type: cisco_ios
+    role: router
+    site: isp
+    mgmt_interface: Ethernet0/1
+
+  - name: HQ-SW
+    host: 192.168.218.21
+    device_type: cisco_ios
+    role: switch
+    site: head-office
+    mgmt_interface: Vlan99
+
+  - name: Branch-SW
+    host: 192.168.218.22
+    device_type: cisco_ios
+    role: switch
+    site: branch
+    mgmt_interface: Vlan99
