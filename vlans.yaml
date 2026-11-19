@@ -1,0 +1,5 @@
+vlans:
+  - id: 40
+    name: PRINTERS
+  - id: 50
+    name: CCTV

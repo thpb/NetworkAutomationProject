@@ -1,0 +1,6 @@
+{% for vlan in vlans %}
+vlan {{ vlan.id }}
+ name {{ vlan.name }}
+{% endfor %}
+interface {{ trunk_interface }}
+ switchport trunk allowed vlan add {% for vlan in vlans %}{{ vlan.id }}{% if not loop.last %},{% endif %}{% endfor %}

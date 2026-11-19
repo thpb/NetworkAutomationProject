@@ -1,0 +1,22 @@
+{
+  "HQ-RT": {
+    "status": "OK",
+    "problems": []
+  },
+  "Branch-RT": {
+    "status": "OK",
+    "problems": []
+  },
+  "ISP-RT": {
+    "status": "OK",
+    "problems": []
+  },
+  "HQ-SW": {
+    "status": "OK",
+    "problems": []
+  },
+  "Branch-SW": {
+    "status": "OK",
+    "problems": []
+  }
+}

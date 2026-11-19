@@ -21,7 +21,7 @@ for device in devices:
     }
     try:    
         connection = ConnectHandler(**device_details)
-        output = connection.send_command("show running-config")
+        output = connection.send_command("show running-config all")
         connection.disconnect()
 
         filename = f"backups/{device['name']}_{today}.txt"

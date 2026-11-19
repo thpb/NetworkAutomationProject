@@ -1,0 +1,9 @@
+Compliance report - 2026-11-19 18:41
+
+PASS       HQ-RT  (HQ-RT_2026-11-19.txt)
+PASS       Branch-RT  (Branch-RT_2026-11-19.txt)
+PASS       ISP-RT  (ISP-RT_2026-11-19.txt)
+PASS       HQ-SW  (HQ-SW_2026-11-19.txt)
+PASS       Branch-SW  (Branch-SW_2026-11-19.txt)
+
+Summary: 5 pass, 0 fail, 0 with no backup

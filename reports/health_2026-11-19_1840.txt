@@ -1,0 +1,9 @@
+Health check report - 2026-11-19 18:40
+
+OK       HQ-RT
+OK       Branch-RT
+OK       ISP-RT
+OK       HQ-SW
+OK       Branch-SW
+
+Summary: 5 OK, 0 with problems, 0 failed
